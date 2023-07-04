@@ -15,12 +15,12 @@
         </div>
         <nav class="menu">
             <div id="menu">
-            <ul>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+                <ul>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -79,7 +79,24 @@
         <section id="contact">
             <h2>Contact</h2>
             <div class="section-content">
-                <p>Email: zamatolo.mtolo@example.com</p>
+                <form action="https://formsubmit.co/your-email-here" method="POST">
+                    <label for="subject">Subject:</label>
+                    <select name="subject" id="subject" required>
+                        <option value="" selected disabled>Select a subject</option>
+                        <option value="Job Inquiry">Job Inquiry</option>
+                        <option value="Collaboration Opportunity">Collaboration Opportunity</option>
+                        <option value="General Inquiry">General Inquiry</option>
+                    </select>
+                    <br><br>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>
+                <p>Email: zamatolosnmtolo@gmail.com</p>
                 <p>Phone: +27657252659</p>
                 <li><a href="https://www.linkedin.com/in/zamatolo-mtolo-73b219179/">LinkedIn</a></li>
                 <li><a href="https://github.com/zamatolosnmtolo">GitHub</a></li>
